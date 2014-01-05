@@ -72,6 +72,14 @@ module Cask::Locations
       @servicedir = _servicedir
     end
 
+    def inputmethoddir
+      @inputmethoddir ||= Pathname.new('~/Library/Input Methods').expand_path
+    end
+
+    def inputmethoddir=(_inputmethoddir)
+      @inputmethoddir = _inputmethoddir
+    end
+
     def default_tap
       @default_tap ||= 'phinze-cask'
     end
