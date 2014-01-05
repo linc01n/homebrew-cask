@@ -72,12 +72,12 @@ module Cask::Locations
       @servicedir = _servicedir
     end
 
-    def inputmethoddir
-      @inputmethoddir ||= Pathname.new('~/Library/Input Methods').expand_path
+    def input_methoddir
+      @input_methoddir ||= Pathname.new('~/Library/Input Methods').expand_path
     end
 
-    def inputmethoddir=(_inputmethoddir)
-      @inputmethoddir = _inputmethoddir
+    def input_methoddir=(_input_methoddir)
+      @input_methoddir = _input_methoddir
     end
 
     def default_tap

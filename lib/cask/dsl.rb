@@ -48,6 +48,7 @@ module Cask::DSL
       :widget,
       :service,
       :colorpicker,
+      :input_method,
     ]
 
     ARTIFACT_TYPES.each do |type|
