@@ -3,5 +3,5 @@ class Openvanilla < Cask
   homepage 'http://openvanilla.org/'
   version '1.0.10'
   sha1 '53926d5b4348344de862dd2154e2b7cac9314916'
-  input_method 'Install OpenVanilla.app/Contents/Resources/OpenVanilla.app'
+  input_method 'OpenVanillaInstaller.app/Contents/Resources/OpenVanilla.app'
 end
